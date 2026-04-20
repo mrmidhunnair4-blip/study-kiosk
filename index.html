@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Test</title>
+<title>Study Kiosk</title>
 
 <style>
 body {
   margin: 0;
-  background-image: url("file:///storage/emulated/0/Download/wall.jpg");
+  font-family: Arial;
+  text-align: center;
+
+  /* ONLINE IMAGE */
+  background-image: url('https://i.imgur.com/8Km9tLL.jpg');
   background-size: cover;
   background-position: center;
-}
-</style>
 
+  color: white;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.youtube { background: red; }
+.pyq { background: orange; }
+.chatgpt { background: green; }
+.notes { background: purple; }
+
+</style>
 </head>
 
 <body>
+<div class="container">
+  <div class="title">Brilliant Study Centre</div>
+
+  <a class="btn youtube" href="https://youtube.com">YouTube</a>
+  <a class="btn pyq" href="https://www.google.com/search?q=neet+pyqs">PYQs</a>
+  <a class="btn chatgpt" href="https://chat.openai.com">ChatGPT</a>
+  <a class="btn notes" href="https://drive.google.com">Notes</a>
+</div>
 </body>
 </html>
